@@ -1,0 +1,35 @@
+<div class="container">
+    <form #information="ngForm" (ngSubmit)="onProductCreate(information.value)">
+        
+          <label for="exampleInputEmail1">License Number</label>
+          <input ngModel  class="form-control" name="lName" placeholder="Enter License Number">
+        
+          <label for="exampleInputEmail1">Vehicle Type</label>
+          <input ngModel  class="form-control" name="Type" placeholder="Enter Vehicle Type">
+
+          <label for="exampleInputEmail1">Owner Name</label>
+          <input ngModel  class="form-control" name="oName" placeholder="Enter Owner Name">
+
+          <label for="exampleInputEmail1">Phone</label>
+          <input ngModel class="form-control" name="Phone" placeholder="Enter phone">
+
+          <label for="exampleInputEmail1">status</label>
+          <input ngModel  class="form-control" name="lName" placeholder="Enter status">
+
+          <label for="exampleInputEmail1">address</label>
+          <input ngModel type="email" class="form-control"name="address"  placeholder="Enter address">
+          
+          <label for="exampleInputEmail1">entry time</label>
+          <input  ngModel type="email" class="form-control"name="entryTime"  placeholder="Enter email">
+
+          <label for="exampleInputEmail1">time of exit</label>
+          <input ngModel  class="form-control"name="exittime"  placeholder="Enter email">
+
+          <label for="exampleInputEmail1">charge</label>
+          <input ngModel class="form-control" name="charge"  placeholder="Enter charge">
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <button  class="btn btn-primary m-2" [routerLink]="['/VehicleList']">Show Info</button>
+</div>

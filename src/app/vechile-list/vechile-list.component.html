@@ -1,0 +1,25 @@
+<div>
+    <button  ></button>
+</div>
+<table class="table">
+    <thead>
+      <tr>
+        <th >Owner Name</th>
+        <th >Vehicle Type</th>
+        <th >License No</th>
+        <th >Entry time</th>
+        <th >exit Time</th>
+        <th >status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vec of vehicle.vehicle">
+        <th >{{vec.ownerName}}</th>
+        <td>{{vec.type}}</td>
+        <td>{{vec.licenseNumber}}</td>
+        <td>{{vec.timeOfEntry}}</td>
+        <td>{{vec.timeOfExit}}</td>
+        <td>{{vec.status}}</td>
+      </tr>
+    </tbody>
+  </table>
