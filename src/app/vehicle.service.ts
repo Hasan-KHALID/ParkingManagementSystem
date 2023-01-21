@@ -8,14 +8,26 @@ export class VehicleService {
   constructor() { }
 
   vehicle = [{
-  licenseNumber: "asa",
-  type: 'string',
-  ownerName: 'string',
-  ownerPhone:'string',
-  status:'string',
-  ownerAdress:'string',
-  timeOfEntry:'string',
-  timeOfExit:'string',
-  parkingCharge:'string'
-  }]
+  licenseNumber: "182777",
+  type: 'car',
+  ownerName: 'khalid',
+  ownerPhone:'02q928123',
+  status:'good',
+  ownerAdress:'dhaka',
+  timeOfEntry:'12pm',
+  timeOfExit:'1pm',
+  parkingCharge:'20'
+  },
+  {
+    licenseNumber: "1827asdas77",
+    type: 'bus',
+    ownerName: 'jack',
+    ownerPhone:'02q928123',
+    status:'good',
+    ownerAdress:'dhaka',
+    timeOfEntry:'12pm',
+    timeOfExit:'1pm',
+    parkingCharge:'20'
+    },
+]
 }

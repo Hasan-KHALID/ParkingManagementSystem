@@ -30,6 +30,7 @@ constructor(private http: HttpClient, public vehicle: VehicleService){
       console.log(res)
     })
     this.vehicle.vehicle.push(info)
+    console.log(this.vehicle.vehicle)
 
   }
 

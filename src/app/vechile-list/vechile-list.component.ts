@@ -15,6 +15,8 @@ export class VechileListComponent implements OnInit {
 
   constructor(public vehicle: VehicleService){
 
+   console.log(this.vehicle.vehicle)  
+
   }
   ngOnInit(): void {
     
